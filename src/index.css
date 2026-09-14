@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.header {
+  min-height: 350px;
+  background-image: url("https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.header-overlay {
+  width: 100%;
+  min-height: 350px;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 1.3rem;
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+}
+
+.card h3 {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 30px;
+}
